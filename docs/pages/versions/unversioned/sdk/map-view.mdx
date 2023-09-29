@@ -115,6 +115,31 @@ const styles = StyleSheet.create({
 
 </Step>
 
+<Step label="5">
+#### Example  app.json/app.config.js
+
+```json
+{
+  "expo": {
+    "android": {
+      "config": {
+        "googleMaps": {
+          "apiKey": "API KEY ..."
+        }
+      },
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_BACKGROUND_LOCATION"
+      ],
+  }
+}
+```
+
+</Step>
+
+
+
 ### iOS
 
 > If you've already registered a project for another Google service on iOS, such as Google Sign In, you enable the **Maps SDK for iOS** on your project and jump to step 3.
